@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Request Server | FreeDeltaNodes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="general-core.css" />
+    <meta name="description" content="FreeDeltaNodes is a free hosting for game servers." />
+    <meta name="keywords" content="server, free server, free, server, delta, deltanodes, freedelta, freedeltanodes, node, nodes, vps, virtual, private, server, servidor, privado, virtual, gratis, nodo, nodos, minecraft, craftsman, java, bedrock" />
+    <!-- Este sitio web esta bajo licencia Creative Commons -->
+    <!-- This website is under Creative Commons license -->
+</head>
+<body>
+    <div class="navbar">
+        FreeDeltaNodes
+    </div>
+    <br><br><br>
+    <div class="text-box-2">
+        <div class="form">
+            <h2>Please complete the form below</h2>
+            The panel username and password will be given when creating the server.
+            <br><br>Select A Server Name (Only letters, numbers, and -_.,)<br><br>
+            <input type="text" id="name"><br><br>
+            Select Server RAM in MB (Limit 2500MB)<br><br>
+            <input type="number" maxlength="4" max="4" id="ram"><br><br>
+            Select an E-Mail to associate with your account<br><br>
+            <input type="email" id="email"><br><br>
+            Select a server location<br><br>
+            <select id="location">
+                <option selected disabled>Server Location</option>
+                <option>Alpha1 - Germany - EU1 - 0% Remaining</option>
+                <option>Beta2 - Finland - EU2 - 0% Remaining</option>
+                <option>Gamma3 - United States - AM1 - 0% Remaining</option>
+                <option>Delta4 - united States - AM2 - 0% Remaining</option>
+            </select>
+            <br><br>
+            <button class="button-1" onclick="start()">Create Server</button>
+        </div>
+    </div>
+    <script src="anti-blank.js"></script>
+</body>
+</html>
